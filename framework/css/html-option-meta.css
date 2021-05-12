@@ -1,0 +1,456 @@
+.clear{ display: block; clear: both; visibility: hidden; line-height: 0; height: 0; zoom: 1; }
+.clearfix{ zoom: 1; }
+.clearfix:after{ content: " "; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+.tourmaster-column-30{ float: left; width: 50%; position: relative; }
+.tourmaster-column-bottom-divider{ border-bottom: 1px solid #eeeeee; padding-bottom: 30px; padding-top: 20px; }
+.tourmaster-column-right-divider{ position: absolute; right: 0px; bottom: 0px; top: 0px; border-right: 1px solid #eeeeee; }
+.tourmaster-page-option-content .tourmaster-column-right-divider-icon{ position: absolute; top: 50%; right: -25px; margin-top: -25px; font-size: 17px; color: #485da1; 
+	background: #f1f1f1; border: 1px solid #dedede; width: 20px; line-height: 20px; text-align: center; padding: 14px 13px 14px 15px; 
+	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+
+/* header */
+#tourmaster-option .inside{ margin: 0px; padding: 0px; }
+#tourmaster-tour-option .inside{ margin: 0px; padding: 0px; }
+#tourmaster-coupon-option .inside{ margin: 0px; padding: 0px; }
+#tourmaster-service-option .inside{ margin: 0px; padding: 0px; }
+#tourmaster-review-option .inside{ margin: 0px; padding: 0px; }
+.tourmaster-page-option-head{  position: relative; }
+.tourmaster-page-option-head-title{ font-size: 14px; font-weight: 600; background: #485da1; color: #fff; padding: 25px 30px }
+.tourmaster-page-option-head-title i{ font-size: 17px; margin-right: 15px; }
+.tourmaster-page-option-head .tourmaster-page-option-head-save{ position: absolute; right: 30px; top: 50%; margin-top: -10px; cursor: pointer; color: #fff; }
+.tourmaster-page-option-head .tourmaster-page-option-head-save.tourmaster-now-loading{ text-indent: -9999px;
+	background: url('../images/pb-ajax-save.gif') center no-repeat; }
+.tourmaster-page-option-head .tourmaster-page-option-head-save i{ margin-right: 10px; }
+
+.tourmaster-page-option-tab-head{ clear: left; background-color: #f1f1f1; }
+.tourmaster-page-option-tab-head-item{ text-transform: uppercase; font-size: 13px; font-weight: 600;
+	padding: 25px 30px; float: left; background-color: #f1f1f1; color: #999999; cursor: pointer;
+	transition: color 200ms, background-color 200ms; -webkit-transition: color 200ms, background-color 200ms;
+	-moz-transition: color 200ms, background-color 200ms; -o-transition: color 200ms, background-color 200ms; }
+.tourmaster-page-option-tab-head-item.tourmaster-active{ background-color: #ffffff; color: #485da1; }
+
+.tourmaster-page-option-tab-content{ clear: left; }
+.tourmaster-page-option-tab-content-item{ display: none; padding: 15px 0px 40px; }
+.tourmaster-page-option-tab-content-item.tourmaster-active{ display: block; }
+
+/* input */
+.tourmaster-html-option-item{ margin: 20px 0px 0px; padding: 0px 30px; }
+.tourmaster-html-option-item-title{ font-size: 13px; font-weight: 600; color: #7a7a7a; float: left; margin-right: 15px; margin-top: 9px; width: 130px; }
+.tourmaster-html-option-item-input{ float: left; }
+.tourmaster-html-option-item-description{ overflow: hidden; font-size: 12px; color: #828282; padding-left: 29px; }
+
+.tourmaster-html-option-item.tourmaster-main-title .tourmaster-html-option-item-title{ font-size: 15px; font-weight: bold; letter-spacing: 0.5px; color: #3f3f3f; text-transform: uppercase; width: auto; }
+.tourmaster-html-option-item.tourmaster-with-bottom-divider{ padding-bottom: 40px; border-bottom: 1px solid #e5e5e5; margin-bottom: 40px; }
+
+.tourmaster-html-option-item.tourmaster-center-option{ text-align: center; }
+.tourmaster-html-option-item.tourmaster-center-option .tourmaster-html-option-item-title{ float: none; margin-right: 0px; color: #3f3f3f; width: auto; margin-bottom: 30px; text-transform: uppercase; }
+.tourmaster-html-option-item.tourmaster-center-option .tourmaster-html-option-item-input{ float: none; }
+
+.tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-text,
+.tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-time,
+.tourmaster-html-option-item .tourmaster-html-option-item-input textarea.tourmaster-html-option-textarea,
+.tourmaster-html-option-item select.tourmaster-html-option-multi-combobox{ 
+	border: 2px solid #eaeaea; background: #ffffff; color: #666; font-size: 12px; width: 250px;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;  }
+
+#wpcontent .tourmaster-html-option-item select[multiple]{ height: 120px; }
+
+.tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-text:focus,
+.tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-time:focus,
+.tourmaster-html-option-item .tourmaster-html-option-item-input textarea.tourmaster-html-option-textarea:focus{ outline: none; }
+
+.tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-text{ height: 35px; margin: 0px; padding: 5px 12px;  }
+.tourmaster-html-option-item .tourmaster-html-option-item-input textarea.tourmaster-html-option-textarea{ padding: 12px 12px; min-height: 120px; }
+
+.tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-time{ height: 35px; margin: 0px; padding: 5px 12px; width: 80px; }
+.tourmaster-html-option-item .tourmaster-html-option-item-input .tourmaster-html-option-time-sep{ margin: 0px 10px; }
+
+.tourmaster-html-option-item-input .tourmaster-html-option-button{ text-align: center; padding: 18px 30px; 
+	background: #485da1; color: #ffffff; display: inline-block; font-size: 13px; text-transform: uppercase; 
+	font-weight: bold; margin: 0px 0px 0px 145px; cursor: pointer; }
+.tourmaster-html-option-item-input .tourmaster-html-option-button.tourmaster-now-loading{ color: transparent;
+	background-image: url('../images/loading-save.gif'); background-position: center; background-repeat: no-repeat; }
+
+#edittag .tourmaster-html-option-item,
+#addtag .tourmaster-html-option-item{ margin: 0px; padding: 0px; }
+
+/* radio image */
+.tourmaster-html-option-item.tourmaster-html-option-radioimage-item label{ display: inline-block; position: relative; 
+	line-height: 0; margin-right: 10px; margin-bottom: 10px; cursor: pointer; max-width: 140px; }
+.tourmaster-html-option-item.tourmaster-html-option-radioimage-item label img{ max-width: 100%; }
+.tourmaster-html-option-item.tourmaster-html-option-radioimage-item.tourmaster-center-option label{ margin: 0px 5px 10px; }
+.tourmaster-html-option-item .tourmaster-html-option-radioimage{ display: none; }
+.tourmaster-html-option-item .tourmaster-radioimage-checked{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; 
+	background: #ffffff; opacity: 0.65; filter: alpha(opacity=65); 
+	transition: opacity 200ms; -webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms; -o-transition: opacity 200ms; }
+.tourmaster-html-option-radioimage:checked + .tourmaster-radioimage-checked{ opacity: 0; filter: alpha(opacity=0); }
+
+.tourmaster-html-option-item .tourmaster-html-option-tabs-radioimage{ float: left; position: relative; 
+	line-height: 0; margin-right: 10px; margin-bottom: 10px; cursor: pointer; max-width: 140px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-radioimage img{ max-width: 100%; }
+
+/* checkbox */
+.tourmaster-html-option-checkbox-item label{ display: inline-block; }
+.tourmaster-html-option-checkbox-item .tourmaster-html-option-checkbox{ display: none; }
+.tourmaster-html-option-checkbox-appearance{ height: 48px; width: 100px; overflow: hidden; background: #f5f5f5; white-space: nowrap;
+	border: 1px solid #e4e4e4; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; 
+	box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.06); -moz-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.06); -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.06); 
+	transition: background-color 200ms; -webkit-transition: background-color 200ms;
+	-moz-transition: background-color 200ms; -o-transition: background-color 200ms; }
+.tourmaster-html-option-checkbox-appearance .tourmaster-checkbox-button{ line-height: 18px; width: 75px; text-align: center; padding: 15px 0px; 
+	display: inline-block; font-size: 10px; text-transform: uppercase; font-weight: bold; letter-spacing: 1.5px; color: #bfbfbf; }
+.tourmaster-html-option-checkbox-appearance .tourmaster-checkbox-separator{ display: inline-block; line-height: 18px; padding: 16px 0px; vertical-align: middle; width: 7px; }
+.tourmaster-html-option-checkbox-appearance .tourmaster-checkbox-separator:before { content: " "; display: block; margin-top: -2px; 
+	height: 10px; width: 1px; background: #cacaca; box-shadow: 3px 0 0 #cacaca, 6px 0 0 #cacaca; }
+		
+.tourmaster-html-option-checkbox-appearance .tourmaster-checkbox-button.tourmaster-on{ margin-left: -57px;
+	transition: margin 200ms, color 200ms; -webkit-transition: margin 200ms, color 200ms;
+	-moz-transition: margin 200ms, color 200ms; -o-transition: margin 200ms, color 200ms; }
+.tourmaster-html-option-checkbox:checked + .tourmaster-html-option-checkbox-appearance{ background: #b1e0c6; }	
+.tourmaster-html-option-checkbox:checked + .tourmaster-html-option-checkbox-appearance .tourmaster-checkbox-button.tourmaster-on{ margin-left: 0px; color: #5f8d74; }
+.tourmaster-html-option-checkbox:checked + .tourmaster-html-option-checkbox-appearance .tourmaster-checkbox-separator:before{ background: #87ba9d; box-shadow: 3px 0 0 #87ba9d, 6px 0 0 #87ba9d; }
+
+/* tabs */
+.tourmaster-html-option-item.tourmaster-html-option-custom-tabs-item{ text-align: center; }
+.tourmaster-html-option-item.tourmaster-html-option-custom-tabs-item .tourmaster-html-option-item-title{ font-size: 12px; 
+	text-transform: uppercase; width: auto; height: 54px; line-height: 54px; background: #485da1; color: #fff; 
+	float: none; display: inline-block; margin-right: 0px; padding: 0px 80px 0px 30px; position: relative; }
+.tourmaster-html-option-item.tourmaster-html-option-custom-tabs-item .tourmaster-html-option-item-input{ float: none; margin-top: 40px; }
+
+.tourmaster-html-option-item .tourmaster-html-option-tabs-add{ cursor: pointer; position: absolute;
+	width: 50px; right: 0px; top: 0px; bottom: 0px; background: #3c4f8e; margin-left: 16px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-add:before{ content: "\f067"; font-family: "FontAwesome"; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-remove{ width: 25px; height: 25px; cursor: pointer; 
+	position: absolute; top: 50%; right: 15px; margin-top: -13px; background: url('../images/remove-price.png') center no-repeat; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-template{ margin-bottom: 10px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-template-title{ background: #fafafa; border: 2px solid #ededed; 
+	padding: 18px 23px; font-weight: bold; color: #485da1; cursor: pointer; position: relative; text-transform: uppercase; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-template-title i{ color: #ec822c; margin-left: 15px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-template-content{ background: #fafafa; padding: 33px 23px 13px;
+	border: 2px solid #ededed; border-top: none; display: none; text-align: left; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-field{ margin-bottom: 20px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-input-title{ font-size: 13px; font-weight: 600; color: #3f3f3f; float: left; margin-right: 15px; margin-top: 9px; width: 130px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-input{ float: left; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-input-description{ overflow: hidden; font-size: 12px; color: #828282; padding-left: 29px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-input-title.tourmaster-html-option-title-item{ float: none; display: block; color: #485da1; padding-bottom: 5px; padding-top: 30px; margin-top: 0px; width: auto; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-field .tourmaster-checkbox{ float: left; }
+
+.tourmaster-html-option-tabs-field[data-wrapper-slug="pricing-method"] .tourmaster-html-option-tabs-input-description{ clear: left; }
+
+.tourmaster-html-option-item .tourmaster-html-option-tabs-duplicate{ color: #898989; text-transform: none; font-weight: normal; position: absolute; left: 10px; }
+.tourmaster-html-option-item .tourmaster-html-option-tabs-duplicate i{ margin-right: 10px; color: #898989; }
+
+
+.tourmaster-html-option-tabs-field.tourmaster-middle-with-divider .tourmaster-html-option-tabs-input-title.tourmaster-html-option-title-item{ text-align: center; border-bottom: 2px solid #ebebeb; padding-bottom: 15px; margin-bottom: 35px; }
+.tourmaster-html-option-tabs-field.tourmaster-full-size .tourmaster-html-option-tabs-input-title{ display: block; float: none; margin-bottom: 15px; width: auto; }
+.tourmaster-html-option-tabs-field.tourmaster-full-size textarea.tourmaster-html-option-tabs-input{ width: 100%; }
+.tourmaster-html-option-tabs-field.tourmaster-small-title .tourmaster-html-option-tabs-input-title{ width: auto; min-width: 70px; }
+.tourmaster-html-option-tabs-field-description .tourmaster-html-option-tabs-input-description{ font-size: 15px; padding-left: 0px; line-height: 1.7; }
+
+.tourmaster-html-option-item .tourmaster-html-option-tabs-checkboxes{ margin-bottom: 25px; }
+.tourmaster-html-option-tabs-checkboxes .tourmaster-html-option-tabs-input-title{ margin-top: 0px; width: auto; min-width: 70px; }
+.tourmaster-html-option-tabs-checkboxes label{ margin-right: 20px; color: #828282; float: left; margin-bottom: 12px; }
+.tourmaster-html-option-tabs-checkboxes label input { margin-right: 8px; }
+.tourmaster-html-option-tabs-content{ overflow: hidden; }
+.tourmaster-html-option-checkboxes-selected{ float: left; color: #b0b0b0; }
+.tourmaster-html-option-checkboxes-selected span.tourmaster-select-all,
+.tourmaster-html-option-checkboxes-selected span.tourmaster-deselect-all{ cursor: pointer; }
+
+/* inner tabs */
+.tourmaster-html-option-tabs-inner-tab-title{ font-size: 12px; text-transform: uppercase; width: auto; 
+	height: 54px; line-height: 54px; background: #485da1; color: #fff; float: none; display: inline-block; 
+	margin-right: 0px; padding: 0px 80px 0px 30px; position: relative; font-weight: 600; margin-bottom: 20px; }
+.tourmaster-html-option-tabs-inner-tab-title .tourmaster-html-option-tabs-add{ text-align: center; }
+
+/* group discount */
+.tourmaster-html-option-item.tourmaster-html-option-custom-group-discount-item .tourmaster-html-option-item-title{ font-size: 12px; 
+	text-transform: uppercase; width: auto; height: 54px; line-height: 54px; background: #485da1; color: #fff; 
+	float: none; display: inline-block; margin-right: 0px; padding: 0px 80px 0px 30px; position: relative; text-align: center; float: left; }
+.tourmaster-html-option-item.tourmaster-html-option-custom-group-discount-item .tourmaster-html-option-item-input{ clear: both; float: none; margin-top: 40px; }
+
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-add{ cursor: pointer; position: absolute;
+	width: 50px; right: 0px; top: 0px; bottom: 0px; background: #3c4f8e; margin-left: 16px; }
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-add:before{ content: "\f067"; font-family: "FontAwesome"; }
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-remove{ width: 25px; height: 25px; cursor: pointer; 
+	position: absolute; top: 50%; right: 15px; margin-top: -13px; background: url('../images/remove-price.png') center no-repeat; }
+
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-template{ background: #fafafa; position: relative;
+	padding: 10px 50px 10px 20px; border: 2px solid #ededed; margin-bottom: 10px; text-align: left; }
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-field{ float: left; }
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-description{ font-size: 11px; overflow: hidden; }
+
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-input{ float: left; width: 60px !important; margin-right: 30px !important; }
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-input-title{ font-size: 13px; font-weight: 600; color: #7a7a7a; float: left; margin-right: 15px; margin-top: 9px; }
+.tourmaster-html-option-item .tourmaster-html-option-group-discount-description{ overflow: hidden; font-size: 12px; color: #7a7a7a; padding-left: 29px; }
+
+/* uploader */
+.tourmaster-html-option-upload-appearance{ width: 193px; height: 120px; position: relative;
+	overflow: hidden; background: url('../images/uploader.png'); 
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15); -moz-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15); }
+.tourmaster-html-option-upload-appearance .tourmaster-upload-image-container{ position: absolute; top: 12px; right: 12px; bottom: 12px; left: 12px; 
+	background-size: cover; background-position: center; }
+.tourmaster-html-option-upload-appearance .tourmaster-upload-image-overlay{ position: absolute; top: 12px; right: 12px; bottom: 12px; left: 12px; 
+	transition: background-color 200ms ease-out; -webkit-transition: background-color 200ms ease-out;
+	-moz-transition: background-color 200ms ease-out; -o-transition: background-color 200ms ease-out; } 
+.tourmaster-html-option-upload-appearance .tourmaster-upload-image-button-hover{ position: absolute; left: 0px; right: 0px; 
+	text-align: center; top: 50%; margin-top: -12px; line-height: 1; }
+.tourmaster-html-option-upload-appearance .tourmaster-upload-image-button{ width: 24px; height: 24px; font-size: 24px;
+	text-align: center; color: #545454; display: inline-block; margin: 0px 18px; cursor: pointer; opacity: 0.20; filter: alpha(opacity=20); 
+	transition: opacity 200ms; -webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms; -o-transition: opacity 200ms; }
+.tourmaster-html-option-upload-appearance .tourmaster-upload-image-remove{ display: none; }
+.tourmaster-html-option-upload-appearance:hover .tourmaster-upload-image-button{ opacity: 0.8; filter: alpha(opacity=80); }
+
+.tourmaster-html-option-upload-appearance.tourmaster-active .tourmaster-upload-image-button{ width: 20px; height: 20px; font-size: 20px; opacity: 0.0; filter: alpha(opacity=0); }
+.tourmaster-html-option-upload-appearance.tourmaster-active .tourmaster-upload-image-button-hover{ margin-top: -10px; }
+.tourmaster-html-option-upload-appearance.tourmaster-active .tourmaster-upload-image-remove{ display: inline-block; }
+
+.tourmaster-html-option-upload-appearance.tourmaster-active:hover .tourmaster-upload-image-overlay{ background-color: rgba(255, 255, 255, 0.7); }
+.tourmaster-html-option-upload-appearance.tourmaster-active:hover .tourmaster-upload-image-button{ opacity: 0.9; filter: alpha(opacity=90); }
+
+/* title */
+.tourmaster-html-option-title-item.tourmaster-top-margin-wrapper{ margin-top: 30px; }
+.tourmaster-html-option-title-item .tourmaster-html-option-item-title{ font-size: 15px; font-weight: bold; text-transform: uppercase; width: auto;
+    color: #485da1; float: none; border-bottom: 1px solid #eaeaea; padding-bottom: 11px; margin-bottom: 15px; }
+
+/* gallery */
+.tourmaster-html-option-gallery-loading{ width: 60px; height: 60px; z-index: 19990; 
+	position: fixed; top: 50%; left: 50%; margin-left: -30px; margin-top: -30px; 
+	background: url('../images/loading-content.gif') center no-repeat #fff; 
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }	
+	
+.tourmaster-html-option-item .tourmaster-html-option-gallery-template{ position: relative; float: left; width: 110px; height: 110px;
+    margin-right: 10px; margin-bottom: 10px; border: 3px solid transparent; cursor: pointer; 
+	transition: border-color 200ms; -webkit-transition: border-color 200ms;
+	-moz-transition: border-color 200ms; -o-transition: border-color 200ms; }
+.tourmaster-html-option-item .tourmaster-html-option-gallery-template:hover{ border-color: #2d9bea }
+.tourmaster-html-option-item .tourmaster-html-option-gallery-template img{ display: block; max-width: 100%; }
+.tourmaster-html-option-item .tourmaster-html-option-gallery-add{ width: 193px; height: 120px; position: relative;
+	overflow: hidden; background: url('../images/uploader.png'); margin-bottom: 40px; cursor: pointer;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15); -moz-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15); }
+.tourmaster-html-option-item .tourmaster-html-option-gallery-add i{ font-size: 35px; color: #545454; opacity: 0.2; 
+    position: absolute; left: 50%; top: 50%; margin-top: -18px; margin-left: -18px;
+	transition: opacity 200ms; -webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms; -o-transition: opacity 200ms; }
+.tourmaster-html-option-item .tourmaster-html-option-gallery-add:hover i{ opacity: 0.8; }
+.tourmaster-html-option-item .tourmaster-html-option-gallery-template-remove{ background: #fc5d5d; color: #fff; cursor: pointer;
+	position: absolute; top: -10px; right: -10px; width: 25px; height: 25px; line-height: 25px; text-align: center;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; opacity: 0; filter: alpha(opacity=0);
+	transition: opacity 200ms; -webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms; -o-transition: opacity 200ms; }
+.tourmaster-html-option-gallery-template:hover .tourmaster-html-option-gallery-template-remove{ opacity: 1; filter: alpha(opacity=100); }
+
+.tourmaster-gallery-lightbox-content{ position: fixed; top: 150px; left: 50%; font-family: "Montserrat", sans-serif;
+	width: 520px; margin-left: -260px; background: #545a5e; z-index: 19999; 
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); }
+.tourmaster-gallery-lightbox-content .tourmaster-gallery-lb-head{ background: #2d9bea; color: #fff;  line-height: 19px; padding: 26px 30px 25px; }
+.tourmaster-gallery-lightbox-content .tourmaster-gallery-lb-head i{ font-size: 18px; margin-right: 20px; vertical-align: top; }
+.tourmaster-gallery-lightbox-content .tourmaster-gallery-lb-head .tourmaster-head{ text-transform: uppercase; letter-spacing: 0.5px; }
+.tourmaster-gallery-lightbox-content .tourmaster-gallery-lb-head-close{ width: 19px; height: 19px; float: right;
+	vertical-align: middle; margin-left: 20px; cursor: pointer;
+	background: url('../images/page-builder/lb-close.png') center no-repeat;  }
+.tourmaster-gallery-lightbox-content .tourmaster-gallery-lb-options-save{ background: #2d9bea; color: #fff; cursor: pointer;
+    font-size: 13px; display: inline-block; padding: 16px 30px; border-radius: 3px; margin: 25px 30px 33px; }
+.tourmaster-gallery-lightbox-content .tourmaster-gallery-lb-options-save i{ font-size: 14px; margin-right: 10px; }	
+	
+.tourmaster-gallery-lightbox-content .tourmaster-html-option-item .tourmaster-html-option-item-title{ color: #bebebe; }
+.tourmaster-gallery-lightbox-content .tourmaster-html-option-item .tourmaster-html-option-item-input input.tourmaster-html-option-text,
+.tourmaster-gallery-lightbox-content .tourmaster-html-option-item .tourmaster-html-option-item-input textarea.tourmaster-html-option-textarea,
+.tourmaster-gallery-lightbox-content .tourmaster-html-option-item .tourmaster-html-option-item-input .tourmaster-custom-combobox,
+.tourmaster-gallery-lightbox-content .tourmaster-html-option-item .tourmaster-custom-combobox select{ background: #43484b; color: #e1e1e1; border: none; }
+.tourmaster-gallery-lightbox-content .tourmaster-html-option-upload-appearance{ background: url('../images/uploader-dark.png'); }
+
+
+/* datepicker */
+.tourmaster-html-option-datepicker-icon{ position: absolute; margin-top: 11px; margin-left: -25px; cursor: pointer; pointer-events: none; }
+.ui-datepicker .ui-datepicker-header{ position: relative; padding: .2em 0; background-color: #fff; }
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next{ position: absolute; top: 2px; width: 2em; height: 1.8em; overflow: hidden; }
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover{ top: 1px; }
+.ui-datepicker .ui-datepicker-prev{ left: 2px; cursor: pointer; text-indent: -9999; }
+.ui-datepicker .ui-datepicker-next{ right: 2px; cursor: pointer; text-indent: -9999; }
+.ui-datepicker .ui-datepicker-prev-hover{ left: 1px; }
+.ui-datepicker .ui-datepicker-next-hover{ right: 1px; }
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span{ display: block; position: absolute; top: 50%; margin-top: -8px; }
+.ui-datepicker .ui-datepicker-title{ margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+.ui-datepicker .ui-datepicker-title select{ font-size: 1em; margin: 1px 0; }
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year{ width: 45%; }
+.ui-datepicker table{ width: 100%; font-size: .9em; border-collapse: collapse; margin: 0 0 .4em; }
+.ui-datepicker th{ padding: .7em .3em; text-align: center; font-weight: bold; border: 0; }
+.ui-datepicker td{ border: 0; padding: 1px; }
+.ui-datepicker td span,
+.ui-datepicker td a{ display: block; padding: 10px; text-align: center; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane{ background-image: none; margin: .7em 0 0 0; padding: 0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-datepicker .ui-datepicker-buttonpane button{ float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width: auto; overflow: visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float: left; }
+.ui-datepicker table tr th{ background-color: #485da1; } 
+.ui-datepicker table tr th{ color: #ffffff; } 
+.ui-datepicker table tr:nth-child(odd){ background-color: #f9f9f9; } 
+.ui-datepicker table tr:nth-child(odd){ color: #949494; } 
+.ui-datepicker table tr:nth-child(even){ background-color: #f3f3f3; } 
+.ui-datepicker table tr:nth-child(even){ color: #949494; } 
+
+/* custom css condition */
+
+/* one time date selection */
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="day"],
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="month"],
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="year"],
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="extra-date-description"],
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="extra-date"],
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="exclude-extra-date"]{ display: none !important; }
+
+/* recurring date selection */
+.tourmaster-html-option-custom-tabs-item[data-tour-timing-method="recurring"] .tourmaster-html-option-tabs-field[data-wrapper-slug="date"]{ display: none !important; }
+
+/* single - hide room base */
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="room-base-price-title"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="pricing-room-base"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="base-price-description"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="initial-price"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="single-discount"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-person"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-adult"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-children"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-student"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-infant"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-male"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-female"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-room"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="single"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-people-per-room"]{ display: none !important; }
+
+/* multiple - no room base */
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="room-base-price-title"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="initial-price"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="single-discount"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-person"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-adult"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-children"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-student"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-infant"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-male"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-female"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-room"],
+.tourmaster-html-option-tabs-field[data-pricing-room-base="disable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-people-per-room"]{ display: none !important; }
+
+/* multiple - room base */
+.tourmaster-html-option-tabs-field[data-pricing-room-base="enable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="same-gender"]{ display: none !important; }
+
+/* supplement-pricing | fixed price - room base */
+.tourmaster-html-option-tabs-field[data-wrapper-slug="enable-supplement-pricing"],
+.tourmaster-html-option-tabs-field[data-wrapper-slug="single-supplement-price"],
+.tourmaster-html-option-tabs-field[data-wrapper-slug="triple-supplement-price"]{ display: none !important; }
+.tourmaster-html-option-custom-tabs-item[data-tour-type="multiple"] .tourmaster-html-option-tabs-field[data-pricing-method="fixed"][data-pricing-room-base="enable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="enable-supplement-pricing"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="multiple"] .tourmaster-html-option-tabs-field[data-pricing-method="fixed"][data-pricing-room-base="enable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="single-supplement-price"],
+.tourmaster-html-option-custom-tabs-item[data-tour-type="multiple"] .tourmaster-html-option-tabs-field[data-pricing-method="fixed"][data-pricing-room-base="enable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="triple-supplement-price"]{ display: block !important; }
+
+/* fixed price */
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="group-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-group"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-group-people"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="adult-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="children-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="student-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="infant-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="male-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="female-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="same-gender"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-adult"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-children"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-student"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-infant"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-male"],
+.tourmaster-html-option-tabs-field[data-pricing-method="fixed"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-female"]{ display: none !important; }
+
+/* variable price */
+.tourmaster-html-option-tabs-field[data-pricing-method="variable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="group-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="variable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-group"],
+.tourmaster-html-option-tabs-field[data-pricing-method="variable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-group-people"],
+.tourmaster-html-option-tabs-field[data-pricing-method="variable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="person-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="variable"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-person"],
+
+/* group pricing */
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="person-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="adult-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="children-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="student-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="infant-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="male-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="female-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="same-gender"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="room-base-price-title"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="initial-price"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="single-discount"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-person"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-adult"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-children"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-student"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-infant"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-male"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="additional-female"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="minimum-people-per-booking"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-room"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-people-per-room"],
+.tourmaster-html-option-tabs-field[data-pricing-method="group"] .tourmaster-html-option-tabs-field[data-wrapper-slug="max-people"]{ display: none !important; }
+
+/* lightbox */
+.tourmaster-single-review-edit-loading{ width: 60px; height: 60px; position: fixed;
+	top: 50%; left: 50%; z-index: 99999; margin-top: -30px; margin-left: -30px;
+	background: url('../images/loading-content.gif') center no-repeat #ffffff;
+    border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+.tourmaster-admin-lightbox-wrapper{ position: fixed; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 10001; overflow: auto;
+	background: #000; background: rgba(0, 0, 0, 0.78); }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-content-wrap{ background-color: #ffffff; }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-content-row{ display: table; width: 100%; height: 100%; position: relative; z-index: 10003; }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-content-cell{ display: table-cell; vertical-align: middle; padding: 20px; overflow-y: auto; }
+.tourmaster-admin-lightbox-content-wrap{ display: none; }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-content-wrap{ display: block; max-width: 835px; margin: 0px auto; }
+
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-title{ color: #0e0e0e; font-size: 14px; text-align: center; margin-bottom: 0px; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-head{ position: relative; padding-bottom: 24px; border-bottom: 2px solid #e5e5e5; margin-bottom: 45px; }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-content-wrap{ padding: 30px 30px 10px; overflow: hidden; }
+.tourmaster-admin-lightbox-wrapper .tourmaster-admin-lightbox-close{ cursor: pointer; font-size: 25px; line-height: 25px; position: absolute; right: 0px; top: -5px; }
+
+/* review form */
+.tourmaster-html-option-admin-review .tourmaster-head{ display: block; margin-bottom: 15px; }
+.tourmaster-html-option-admin-review input[type="text"]{ line-height: 1.75; margin-bottom: 25px; border-width: 1px !important; }
+.tourmaster-html-option-admin-review select{ line-height: 1.75; }
+.tourmaster-html-option-admin-review .tourmaster-button{ outline: none; border: none; cursor: pointer; 
+	transition: color 200ms; -webkit-transition: color 200ms; -moz-transition: color 200ms; -o-transition: color 200ms; } 
+.tourmaster-html-option-admin-review .tourmaster-button.tourmaster-now-loading{ color: transparent !important;
+	background-image: url('../images/loading-save.gif'); background-position: center; background-repeat: no-repeat; }
+.tourmaster-html-option-admin-review .tourmaster-review-form-rating{ margin-bottom: 30px; }
+.tourmaster-html-option-admin-review .tourmaster-review-form-rating i{ color: #ebac3f; }
+.tourmaster-html-option-admin-review .tourmaster-review-form-date{ position: relative; }
+.tourmaster-html-option-admin-review .tourmaster-review-form-date:after{ font-family: fontAwesome; content: "\f073"; position: absolute; right: 20px; top: 49px; pointer-events: none; }
+
+.tourmaster-html-option-manage-review-item .tourmaster-html-option-item-input{ float: none; }
+.tourmaster-html-option-admin-manage-review .tourmaster-html-option-admin-manage-review-item{ margin-bottom: 30px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-content-item{ margin-bottom: 40px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-user{ float: left; text-align: center; width: 150px; padding-right: 50px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-avatar{ width: 65px; height: 65px; overflow: hidden; margin: 0px auto 15px;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-avatar img{ max-width: 100%; height: auto; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-user-name{ font-size: 14px; margin-bottom: 4px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-user-type{ font-size: 12px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-detail{ overflow: hidden; padding-bottom: 30px; border-bottom: 1px solid #e5e5e5; position: relative; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-detail-rating{ font-size: 14px; margin-bottom: 6px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-detail-date{ font-size: 13px; font-style: italic; color: #a3a3a3; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-detail-rating i{ margin-right: 4px; color: #ffa127; }
+.tourmaster-html-option-admin-manage-review .tourmaster-review-content-pagination{ text-align: center; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-detail p{ margin-top: 0px; margin-bottom: 20px; }
+
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-editable{ position: absolute; right: 0px; bottom: 10px; font-size: 14px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-editable > div{ display: inline-block; margin-left: 15px; cursor:  pointer; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-editable i{ margin-right: 6px; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-edit{ color: #495da1; }
+.tourmaster-html-option-admin-manage-review .tourmaster-single-review-remove{ color: #e02525; }

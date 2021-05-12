@@ -1,0 +1,2 @@
+"Order ID","Tour Name","Contact Name","Contact Email","Contact Number","Customer's Note","Booking Date","Travel Date","Total Price","Traveller Info","Payment Status","Link To Transaction"
+#19,"Dubai – All Stunning Places","test test",nao.null@gmail.com,123," ","January 7, 2020","January 7, 2020","$1,339.61",,Pending,http://localhost/traveltour/wp-admin/admin-ajax.php?single=19

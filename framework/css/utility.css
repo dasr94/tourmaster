@@ -1,0 +1,142 @@
+.tourmaster-alert-box-wrapper{ position: fixed; width: 450px; top: 50%; left: 50%; z-index: 99999; color: #fff;
+	background: #000; background: rgba(0, 0, 0, 0.82); text-align: center; padding: 60px 30px;
+	overflow: hidden; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.tourmaster-alert-box-wrapper .tourmaster-alert-box-icon{ font-size: 20px; line-height: 20px; width: 20px; text-align: center;
+	margin-right: 15px; background: #51b66d; padding: 13px; overflow: hidden; vertical-align: middle; 
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+.tourmaster-alert-box-wrapper .tourmaster-alert-box-icon.fa-remove{ background: #B65151; }
+.tourmaster-alert-box-wrapper .tourmaster-alert-box-head{ font-size: 17px; font-weight: bold; }
+.tourmaster-alert-box-wrapper .tourmaster-alert-box-text{ margin-top: 16px; color: #E2E2E2; }
+
+.tourmaster-conform-box-overlay{ position: fixed; z-index: 99998; top: 0px; right: 0px; bottom: 0px; left: 0px; background: #000; }
+.tourmaster-confirm-box-wrapper { position: fixed; width: 450px; background: #ffffff; 
+	top: 50%; left: 50%; z-index: 99999; text-align: center; font-family: 'Montserrat', sans-serif; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-head { font-size: 13px; text-transform: uppercase; font-weight: bold; 
+    color: #828282; padding: 15px 0px; border-bottom: 1px solid #e8e8e8; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-content-wrapper { padding: 35px 0px; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-content-wrapper{ padding: 33px 0px; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-text { font-size: 16px; color: #404040; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-sub { font-size: 12px; margin-top: 11px; color: #b7b7b7; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-button-wrapper{ overflow: hidden; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-button{ width: 50%; text-align: center; float: left; cursor: pointer;
+    color: #fff; padding: 14px 0px; font-weight: bold; font-size: 13px; text-transform: uppercase; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-button.tourmaster-yes{ background: #f95e5e; }
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-button.tourmaster-no{ background: #383838; }
+
+.rtl .tourmaster-admin-option-wrapper {
+    direction: ltr;
+}
+.rtl .tourmaster-add-filter-head i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.rtl .tourmaster-add-filter-page-content table th {
+    text-align: right;
+}
+.rtl .tourmaster-add-filter-form-item .tourmaster-add-filter-description {
+    margin-right: 20px;
+    margin-left: 0;
+    display: inline-block;
+}
+.rtl .tourmaster-page-option-head-title i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.rtl .tourmaster-page-option-tab-head-item {
+    float: right;
+}
+.rtl .tourmaster-html-option-admin-manage-review .tourmaster-single-review-user {
+    float: right;
+    padding-left: 50px;
+    padding-right: 0;
+}
+.rtl .tourmaster-html-option-admin-manage-review .tourmaster-single-review-editable i {
+    margin-left: 6px;
+    margin-right: 0;
+}
+.rtl .tourmaster-html-option-item-input {
+    float: right;
+}
+.rtl .tourmaster-html-option-item-description {
+    padding-right: 29px;
+    padding-left: 0;
+}
+.rtl .tourmaster-html-option-item-title {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}	
+.rtl .tourmaster-html-option-datepicker-icon {
+    margin-right: -25px;
+    margin-left: 0;
+}	
+.rtl .tourmaster-page-option-content .tourmaster-column-right-divider-icon {
+    left: -25px;
+    right: auto;
+}	
+.rtl .tourmaster-html-option-item .tourmaster-html-option-tabs-input-title {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}	
+.rtl .tourmaster-html-option-item .tourmaster-html-option-tabs-input {
+    float: right;
+}
+.rtl .tourmaster-html-option-item .tourmaster-html-option-tabs-template-content {
+    text-align: right;
+}
+.rtl .tourmaster-html-option-item .tourmaster-html-option-tabs-input-description {
+    padding-right: 29px;
+    padding-left: 0;
+}
+.rtl .tourmaster-html-option-item .tourmaster-html-option-tabs-remove {
+    left: 15px;
+    right: auto;
+}	
+.rtl .tourmaster-html-option-item.tourmaster-html-option-custom-group-discount-item .tourmaster-html-option-item-title {
+    float: right;
+}
+.rtl .tourmaster-html-option-checkbox-appearance {
+    direction: ltr;
+}	
+.rtl .tourmaster-order-filter-wrap label {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.rtl .tourmaster-order-filter-wrap .tourmaster-separater {
+    display: inline-block;
+}
+.rtl .tourmaster-order-filter a {
+    display: inline-block;
+}
+.rtl .tourmaster-order-page-head i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.rtl .tourmaster-order-page-content table th {
+    text-align: right;
+}
+.rtl .tourmaster-my-booking-single-field .tourmaster-head {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.rtl .tourmaster-price-breakdown .tourmaster-tail .tourmaster-price {
+    float: left;
+}
+.rtl .tourmaster-price-breakdown .tourmaster-tail .tourmaster-price-detail {
+	direction: ltr;
+    display: inline-block;
+}
+.rtl .tourmaster-price-breakdown .tourmaster-head {
+    margin-left: 13px;
+    margin-right: 0;
+}
+.rtl .tourmaster-price-breakdown .tourmaster-tail.tourmaster-right {
+    float: left;
+}
+.rtl .tourmaster-my-booking-single-sidebar {
+    float: left;
+    padding-right: 30px;
+    padding-left: 0;
+}

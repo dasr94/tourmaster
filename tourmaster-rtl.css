@@ -1,0 +1,488 @@
+/* plugin/tourmaster/tourmaster.css */
+/* column */
+.tourmaster-column-10{ float: right; }
+.tourmaster-column-12{ float: right; }
+.tourmaster-column-15{ float: right; }
+.tourmaster-column-20{ float: right; }
+.tourmaster-column-24{ float: right; }
+.tourmaster-column-30{ float: right; }
+.tourmaster-column-36{ float: right; }
+.tourmaster-column-40{ float: right; }
+.tourmaster-column-45{ float: right; }
+.tourmaster-column-48{ float: right; }
+.tourmaster-column-50{ float: right; }
+.tourmaster-column-60{ float: right; }
+.tourmaster-column-first{ clear: right; }
+
+.tourmaster-template-wrapper .tourmaster-sidebar-right{ float: right; }
+.tourmaster-template-wrapper .tourmaster-sidebar-center{ float: none; }
+
+/* top bar */
+.tourmaster-login-bar-shortcode{ text-align: right; } /* nok */
+.tourmaster-login-bar-shortcode .tourmaster-user-top-bar-nav{ text-align: left; } /* nok */
+.tourmaster-user-top-bar.tourmaster-guest i{ margin-right: 0; margin-left: 12px; }
+.tourmaster-user-top-bar.tourmaster-guest .tourmaster-text { display: inline-block;}
+.tourmaster-user-top-bar.tourmaster-guest .tourmaster-user-top-bar-signup{ margin-right: 26px; margin-left: 0; }
+.tourmaster-user-top-bar.tourmaster-user > img{ margin-right: 0; margin-left: 15px; }
+.tourmaster-user-top-bar.tourmaster-user > i{ margin-right: 18px; margin-left: 0; }
+
+/* user section */
+.tourmaster-user-navigation{ float: right; }
+.tourmaster-user-navigation .tourmaster-user-navigation-item-icon{ margin-right: 0; margin-left: 11px;  }
+.tourmaster-user-navigation .tourmaster-user-navigation-item.tourmaster-active:before{ border-left-width: 0; border-right-width: 3px; border-right-style: solid; margin-right: 0; margin-left: 18px; }
+
+.tourmaster-user-content-block .tourmaster-user-content-title{ float: right;}
+.tourmaster-user-content-block .tourmaster-user-content-title-link{float: left; }
+
+/* dashboard */
+.tourmaster-my-profile-avatar{ float: right; margin-right: 0; margin-left: 40px; }
+.tourmaster-my-profile-info{ float: right; }
+.tourmaster-my-profile-info.tourmaster-odd{ padding-left: 0; padding-right: 10px; }
+.tourmaster-my-profile-info.tourmaster-even{ clear: right; padding-right: 0; padding-left: 10px; }
+.tourmaster-my-profile-info .tourmaster-head{ float: right; margin-right: 0; margin-left: 10px; }
+
+/* edit profile page */
+.tourmaster-user-update-notification i{ margin-left: 13px; margin-right: 0; }
+.tourmaster-edit-profile-avatar img{margin-left: 95px; margin-right: 0; }
+.tourmaster-edit-profile-submit.tourmaster-button{ margin-left: 0; margin-right: 180px; }
+.tourmaster-edit-profile-wrap .tourmaster-req{ margin-left: 0; margin-right: 5px; }
+.tourmaster-edit-profile-wrap .tourmaster-head{ float: right; margin-left: 20px; margin-right: 0;}
+
+/* form field */
+.tourmaster-form-field .tourmaster-combobox-wrap:after{left: 16px; right: auto;}
+.tourmaster-form-field .tourmaster-combobox-list-display:after{left: 14px; right: auto; }
+.tourmaster-form-field-alt-date{ float: right; margin-left: 10px; margin-right: 0; }
+.tourmaster-form-field-alt-month{ float: right; margin-left: 10px; margin-right: 0; }
+.tourmaster-form-field-alt-year{ float: right; }
+.tourmaster-datepicker-wrap:after{left: 17px; right: auto;  }
+
+/* breadcrumb */
+.tourmaster-user-breadcrumbs .tourmaster-sep { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg);    transform: rotate(0deg);  display: inline-block;}
+.tourmaster-user-breadcrumbs-item { display: inline-block;}
+
+/* table */
+.tourmaster-template-wrapper-user .tourmaster-my-booking-filter a { display: inline-block;}
+.tourmaster-template-wrapper table.tourmaster-table th{ text-align: right; }
+.tourmaster-template-wrapper table.tourmaster-table td{ text-align: right; }
+
+/* my booking */
+table.tourmaster-my-booking-table .tourmaster-my-booking-status{ margin-left: 20px; margin-right:0;}
+table.tourmaster-my-booking-table .tourmaster-my-booking-status i{ margin-left: 9px; margin-right:0; }
+table.tourmaster-my-booking-table .tourmaster-my-booking-action{ margin-left: 4px; margin-right:0;}
+
+.tourmaster-my-booking-single-sidebar{ float: left; padding-right: 30px; padding-left: 0;}
+.tourmaster-my-booking-single-field .tourmaster-head{ float: right; margin-left: 10px; margin-right:0; }
+.tourmaster-my-booking-single-price-breakdown .tourmaster-price-breakdown-summary{ float: left; }
+.tourmaster-my-booking-single-total-price .tourmaster-tail{ float: left;  }
+.tourmaster-my-booking-single-total-price .tourmaster-my-booking-single-field{ float: left;}
+
+/* price breakdown */
+.tourmaster-price-breakdown .tourmaster-head{ margin-left: 13px; margin-right:0;display: inline-block; }
+.tourmaster-price-breakdown .tourmaster-tail.tourmaster-right{ float: left; }
+.tourmaster-price-breakdown .tourmaster-tail .tourmaster-price{ float: left; }
+.tourmaster-price-breakdown-coupon-code .tourmaster-coupon-text{ float: left; }
+
+/* tour booking bar */
+.tourmaster-header-price .tourmaster-tour-price-wrap:before{margin-left: 15px; margin-right: 0;  display: inline-block; }
+.tourmaster-header-price .tourmaster-tour-price .tourmaster-head{ margin-left: 10px; margin-right: 0; display: inline-block;}
+.tourmaster-header-price .tourmaster-tour-price .tourmaster-tail{ margin-left: 15px; margin-right: 0; display: inline-block; }
+.tourmaster-header-price .tourmaster-tour-price-info{ margin-left: 0; margin-right: 3px;  }
+
+.tourmaster-single-header .tourmaster-header-price{left: 0; right: auto;}
+
+.tourmaster-tour-booking-next-sign{ right: 40px; left: auto}
+
+.tourmaster-tour-booking-available{ margin-right: 45px; margin-left: 0;}
+
+.tourmaster-tour-booking-package > i{ float: right; margin-left: 15px; margin-right:0; }
+.tourmaster-tour-booking-package .tourmaster-combobox-list-wrap{ margin-right: 45px; margin-left: 0;}
+
+.tourmaster-tour-booking-date > i{ float: right; margin-left: 15px; margin-right: 0;}
+.tourmaster-tour-booking-date .tourmaster-tour-booking-date-display{ padding-right: 6px; padding-left: 0}
+
+.tourmaster-tour-booking-room > i{ float: right; margin-left: 15px; margin-right: 0; }
+.tourmaster-tour-booking-people > i{float: right; margin-left: 15px; margin-right: 0; }
+.tourmaster-tour-booking-people-input.tourmaster-variable .tourmaster-combobox-wrap{ float: right;}
+.tourmaster-tour-booking-people-input.tourmaster-variable .tourmaster-combobox-wrap:nth-child(odd){ margin-left: 2%; margin-right: 0;}
+.tourmaster-tour-booking-people-input.tourmaster-variable .tourmaster-combobox-wrap:nth-child(even){margin-left: 0; margin-right: 2%; }
+
+.tourmaster-tour-booking-people-container .tourmaster-tour-booking-room-text{ float: right; margin-left: 20px; margin-right: 0;}
+
+.tourmaster-tour-booking-submit > i{ float: right; margin-left: 15px; margin-right: 0; }
+
+.tourmaster-tour-booking-bar-wrap .tourmaster-save-wish-list{ float: right; border-right-width: 0; border-left-width: 1px; border-left-style: solid; }
+.tourmaster-tour-booking-bar-wrap .tourmaster-save-wish-list i{ margin-left: 12px; margin-right: 0; }
+.tourmaster-save-wish-list .tourmaster-save-wish-list-icon-wrap {position: static;}
+.tourmaster-tour-booking-bar-wrap .tourmaster-view-count i{  margin-left: 12px; margin-right: 0; }
+.tourmaster-tour-booking-bar-summary-room-text{float: right; margin-left: 25px; margin-right: 0; }
+.tourmaster-tour-booking-bar-summary-info .tourmaster-head {display: inline-block;}
+.tourmaster-tour-booking-bar-summary-people.tourmaster-variable .tourmaster-tour-booking-bar-summary-people-amount{ float: right; margin-left: 12px; margin-right: 0;}
+.tourmaster-tour-booking-bar-summary-people.tourmaster-variable .tourmaster-tour-booking-bar-summary-people-amount:nth-child(3){ clear: right; }
+
+.tourmaster-tour-booking-bar-coupon-wrap input[type="text"].tourmaster-tour-booking-bar-coupon{  margin-left: 18px; margin-right: 0;  }
+.tourmaster-tour-booking-bar-total-price{ float: left; }
+.tourmaster-template-payment .tourmaster-tour-booking-bar-wrap{ float: left; margin-right: 50px; margin-left:0;}
+
+/* enquiry form */
+.tourmaster-booking-tab-title-item{float: right; }
+
+/* payment */
+.tourmaster-payment-head .tourmaster-payment-step-inner{ padding-left: 400px; padding-right: 20px;}
+.tourmaster-payment-step-wrap .tourmaster-payment-step-item{ float: right; padding: 28px 0 28px 50px; }
+.tourmaster-payment-step-wrap .tourmaster-payment-step-item:after{ left: 15px; right: auto; background-position:center left; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); transform: rotate(180deg); }
+.tourmaster-payment-step-wrap .tourmaster-payment-step-item:last-child{ padding-left: 0px; }
+.tourmaster-payment-step-wrap .tourmaster-payment-step-item-icon{ margin-left: 20px; margin-right:0;}
+
+.tourmaster-payment-traveller-info-wrap .tourmaster-payment-traveller-info-title i{ margin-left: 17px; margin-right:0; }
+.tourmaster-payment-traveller-info-wrap .tourmaster-head{ float: right;}
+.tourmaster-payment-traveller-info-wrap .tourmaster-tail .tourmaster-traveller-info-input{ float: right; margin-left: 3%; margin-right:0; }
+.tourmaster-payment-traveller-info-wrap .tourmaster-tail .tourmaster-traveller-info-passport{ float: right; margin-left: 3%; margin-right:0; }
+.tourmaster-payment-traveller-info-wrap .tourmaster-traveller-info-field.tourmaster-with-info-title .tourmaster-traveller-info-title{ float: right; margin-left: 3%; margin-right:0; }
+
+.tourmaster-payment-service-form-wrap .tourmaster-payment-service-form-price-wrap{ float: left;}
+.tourmaster-payment-service-form-wrap .tourmaster-payment-service-form-price-wrap input[type="text"]{ margin-right: 10px; margin-left: 0; }
+.tourmaster-payment-service-form-wrap .tourmaster-payment-service-form-price-wrap .tourmaster-sep {display: inline-block;}
+
+.tourmaster-tour-booking-bar-total-price-wrap > i { margin-left: 12px; margin-right: 0;}
+
+.tourmaster-payment-contact-wrap .tourmaster-payment-contact-title i{ margin-left: 17px; margin-right:0; }
+.tourmaster-payment-contact-wrap .tourmaster-head{ float: right; }
+
+.tourmaster-payment-billing-wrap .tourmaster-payment-billing-title i{ margin-left: 17px; margin-right:0; }
+.tourmaster-payment-billing-wrap .tourmaster-head{ float: right; }
+.tourmaster-payment-billing-copy{ margin: -1px 150px 0px 10px; }
+
+.tourmaster-payment-additional-note-wrap .tourmaster-payment-additional-note-title i{ margin-left: 17px; margin-right:0; }
+.tourmaster-payment-additional-note-wrap .tourmaster-head{ float: right; }
+
+.tourmaster-tour-payment-content .tourmaster-tour-booking-continue{ margin-left: 0; margin-right:150px; }
+.tourmaster-tour-payment-content .tourmaster-tour-booking-required-error{ margin-left: 0; margin-right:150px; }
+
+.tourmaster-payment-detail-wrap{ float: right; }
+.tourmaster-payment-detail-wrap .tourmaster-payment-detail-title i{  margin-left: 17px; margin-right: 0; }
+.tourmaster-payment-detail-wrap .tourmaster-head{ float: right;}
+
+.tourmaster-payment-detail-notes-wrap .tourmaster-payment-detail-title i{  margin-left: 17px; margin-right: 0; }
+.tourmaster-payment-detail-notes-wrap .tourmaster-head{ float: right; }
+
+.tourmaster-payment-traveller-detail .tourmaster-payment-detail-title i{ margin-left: 17px; margin-right: 0; }
+.tourmaster-payment-traveller-detail .tourmaster-head{ float: right;  }
+
+.tourmaster-payment-method-wrap.tourmaster-both-online-payment .tourmaster-online-payment-method{ float: right; }
+
+/* price direction fix */
+.tourmaster-price-breakdown-base-price .tourmaster-price-detail {
+    direction: ltr;
+    display: inline-block;
+}
+
+/* filter */
+.tourmaster-filterer-wrap.tourmaster-style-text .tourmaster-filterer:first-child{ margin-left: 0px; } /* nok */
+.tourmaster-filterer-wrap.tourmaster-style-text .tourmaster-filterer:last-child{ margin-right: 0px; } /* nok */
+
+.tourmaster-filterer-wrap.tourmaster-style-button a:first-child{ margin-left: 0px; } /* nok */
+.tourmaster-filterer-wrap.tourmaster-style-button a:last-child{ margin-right: 0px; } /* nok */
+
+/* single */
+.tourmaster-tour-info-outer .tourmaster-tour-info i{ float: right; margin-left: 6px; }
+.tourmaster-tour-info-outer .tourmaster-tour-info{ text-align: right; }
+.single-tour .tourmaster-tour-info-outer .tourmaster-tour-info{ float: right; }
+
+.single-tour .tourmaster-single-header-title-wrap,
+.single-tour .tourmaster-tour-info-outer .tourmaster-tour-info-wrap{ padding-left: 410px; padding-right: 20px !important; }
+.single-tour .tourmaster-tour-info-outer .tourmaster-tour-info-wrap,
+.single-tour .tourmaster-single-main-content,
+.single-tour .tourmaster-single-review{ padding-left: 410px; padding-right: 0;  }
+.single-tour.tourmaster-body .gdlr-core-container{padding-left: 430px; padding-right: 15px; }
+.single-tour.tourmaster-body .gdlr-core-container .gdlr-core-container{ padding-left: 0px; padding-right: 15px;  }
+.single-tour.tourmaster-body .tourmaster-single-related-tour-container{ padding-left: 430px; padding-right: 20px; }
+
+.single-tour .tourmaster-with-sidebar .tourmaster-tour-info-outer .tourmaster-tour-info-wrap, 
+.single-tour .tourmaster-with-sidebar .tourmaster-single-main-content, 
+.single-tour .tourmaster-with-sidebar .tourmaster-single-review{ padding-right: 0; }
+
+.tourmaster-single-header .tourmaster-single-header-gallery-button i{ margin-left: 8px; margin-right: 0;}
+
+.tourmaster-tour-booking-bar-container-inner .tourmaster-tour-booking-bar-anchor,
+.tourmaster-tour-booking-bar-container-inner .tourmaster-tour-booking-bar-wrap{ right: auto; left: 0; }
+
+.tourmaster-single-review-head .tourmaster-tour-rating{ float: right;}
+.tourmaster-single-review-head .tourmaster-tour-rating-text{ margin-left: 15px; margin-right: 0; float: right; }
+.tourmaster-single-review-head .tourmaster-tour-rating i{ margin-left: 2px; margin-right: 0; float: right;}
+.tourmaster-single-review-head .tourmaster-single-review-filter{ float: left; }
+.tourmaster-single-review-head .tourmaster-single-review-sort-by{ margin-left: 20px; margin-right: 0; float: right; }
+.tourmaster-single-review-head .tourmaster-single-review-filter-by{ float: right; width: 170px; }
+
+.tourmaster-single-review-sort-by .tourmaster-head{  margin-left: 15px; margin-right: 0; display: inline-block;}
+.tourmaster-single-review-sort-by .tourmaster-sort-by-field{  margin-left: 15px; margin-right: 0; padding-left: 20px; padding-right: 0;display: inline-block;}
+.tourmaster-single-review-sort-by .tourmaster-sort-by-field:after{ left: 0px; right: auto; }
+
+.tourmaster-single-review-content{ padding-right: 50px; padding-left: 0; }
+.tourmaster-single-review-content .tourmaster-single-review-user{ float: right; padding-left: 50px; padding-right: 0;}
+.tourmaster-single-review-content .tourmaster-single-review-detail-rating i{ margin-left: 4px; margin-right: 0;}
+.tourmaster-single-review-content .tourmaster-review-content-pagination { margin-right: 220px; margin-left: 0;}
+
+.tourmaster-review-content-pagination span{ margin-left: 3px; margin-right: 0;}
+
+/* payment receipt form */
+.tourmaster-payment-receipt-field-submit{ margin-left: 0; margin-right: 45%; padding-left: 0; padding-right: 30px;}
+.tourmaster-payment-receipt-field .tourmaster-head{ float: right; margin-left: 30px; margin-right: 0; text-align: left;  }
+.tourmaster-payment-receipt-deposit-option label{ margin-left: 20px; margin-right: 0; }
+.tourmaster-payment-receipt-deposit-option label i{ margin-left: 12px; margin-right: 0; display: inline-block;}
+
+
+/* deposit payment */
+.tourmaster-tour-booking-bar-deposit-option label{ margin-left: 18px; margin-right: 0; display: inline-block;}
+.tourmaster-tour-booking-bar-deposit-option label i{ margin-left: 12px; margin-right: 0; display: inline-block;}
+.tourmaster-tour-booking-bar-deposit-text .tourmaster-tour-booking-bar-deposit-price{ float: left;}
+
+/* wish list */
+.tourmaster-wish-list-item .tourmaster-wish-list-item-info i{ margin-left: 9px; margin-right: 0;}
+.tourmaster-wish-list-item .tourmaster-wish-list-thumbnail{ float: right; margin-left: 20px; margin-right: 0; }
+.tourmaster-wish-list-remove-item i{ margin-left: 10px; margin-right: 0; }
+
+/* reviews */
+.tourmaster-review-form .tourmaster-review-form-title .tourmaster-head{ margin-right: 4px; margin-left: 7px; }
+.tourmaster-review-form-rating i{ float: right; margin-right: 0px; margin-left: 7px;}
+.tourmaster-review-form-rating i.tourmaster-rating-select{ margin-left: 0px; }
+.tourmaster-review-form-rating span.tourmaster-rating-select{ float: right; }
+
+/* invoices */
+.tourmaster-invoice-head-left{ float: right; }
+.tourmaster-invoice-head-right{ float: left;}
+.tourmaster-invoice-price-head .tourmaster-head{float: right; }
+.tourmaster-invoice-price-item .tourmaster-head{ float: right; }
+.tourmaster-invoice-price-sub-total .tourmaster-head,
+.tourmaster-invoice-price-tax .tourmaster-head,
+.tourmaster-invoice-price-last .tourmaster-head,
+.tourmaster-invoice-total-price .tourmaster-head{ float: right; margin-right: 55%; margin-left: 0;}
+.tourmaster-invoice-payment-info-item{ float: right; margin-left: 60px; margin-right: 0;}
+
+.tourmaster-invoice-button{ text-align: left; }
+.tourmaster-invoice-button .tourmaster-button{ margin-right: 5px; margin-left: 0; }
+.tourmaster-invoice-button .tourmaster-button:first-child{ margin-right: 0px; }
+.tourmaster-invoice-button .tourmaster-button i{ margin-left: 10px; margin-right: 0;}
+
+/* login */
+.tourmaster-notification-box i{ margin-left: 13px; margin-right: 0;}
+.tourmaster-login-form .tourmaster-login-user, .tourmaster-login-form .tourmaster-login-pass { float: right;}
+.tourmaster-login-form .tourmaster-login-lost-password{text-align: left; }
+.tourmaster-login-form2{ float: right; padding-left: 30px; padding-right: 0;}
+.tourmaster-login2-right{ float: right; padding-right: 30px; padding-left: 0; border-right-width: 1px; border-right-style: solid; border-left-width: 0;}
+
+/* register */
+.tourmaster-register-form .tourmaster-profile-field{ float: right; }
+.tourmaster-register-form .tourmaster-profile-field-password{ clear: right; }
+
+/* review item */
+.tourmaster-tour-review-item .tourmaster-tour-review-item-avatar{ float: right; margin-left: 18px; margin-right: 0;}
+.tourmaster-tour-review-item .tourmaster-tour-review-item-rating i{ margin-left: 6px; margin-right: 0; }
+.tourmaster-tour-review-item .tourmaster-tour-review-item-user{ margin-left: 0; margin-right: 12px; }
+
+
+/* tour order filterer */
+.tourmaster-tour-order-filterer-wrap .tourmaster-tour-order-filterer-title{ padding-left: 10px; padding-right: 0; }
+.tourmaster-tour-order-filterer-wrap .tourmaster-combobox-wrap{ margin-right: 10px; margin-left: 0; }
+.tourmaster-tour-order-filterer-wrap .tourmaster-combobox-wrap:after{ left: 12px; right: auto;}
+.tourmaster-tour-order-filterer-wrap .tourmaster-combobox-wrap select{  padding: 7px 15px 7px 30px;}
+.tourmaster-tour-order-filterer-wrap .tourmaster-tour-order-filterer-style{ float: left; }
+.tourmaster-tour-order-filterer-wrap .tourmaster-tour-order-filterer-style a{margin-right: 15px; margin-left: 0; }
+
+/* tour item */
+.tourmaster-tour-rating i{ margin-right: 4px; margin-left: 0;}
+.tourmaster-tour-rating i:first-child{ margin-right: 0px; }
+.tourmaster-tour-rating-text{ margin-right: 6px; margin-left: 0; }
+.tourmaster-tour-info-wrap .tourmaster-tour-info i{ margin-left: 4px; margin-right: 0; }
+
+.tourmaster-thumbnail-ribbon{ padding: 14px 30px 14px 20px; right: -10px; left:auto; }
+.tourmaster-thumbnail-ribbon .tourmaster-thumbnail-ribbon-cornor{ right: -5px;bottom: -15px; left: auto; transform: rotate(-90deg);}
+
+.tourmaster-tour-widget .tourmaster-tour-thumbnail{ float: right; margin-left: 20px; margin-right: 0; }
+.tourmaster-tour-widget .tourmaster-tour-price .tourmaster-head{ margin-left: 10px; margin-right: 0; display: inline-block;}
+.tourmaster-tour-widget .tourmaster-tour-price-wrap.tourmaster-discount .tourmaster-tour-price .tourmaster-head{ margin-left: 8px; margin-right: 0; }
+.tourmaster-tour-widget .tourmaster-tour-price-wrap.tourmaster-discount .tourmaster-tour-price .tourmaster-tail{ margin-left: 10px; margin-right: 0; display: inline-block;}
+.tourmaster-tour-widget .tourmaster-tour-content-info.tourmaster-with-ribbon .tourmaster-tour-price-wrap{ float: left; }
+.tourmaster-tour-widget .tourmaster-thumbnail-ribbon{ float: right; }
+
+.tourmaster-tour-item .gdlr-core-flexslider.gdlr-core-with-outer-frame-element .flex-viewport{padding-right: 10px; margin-right: -10px; padding-left: 0; margin-left: 0; }
+
+.tourmaster-tour-grid.tourmaster-price-right-title .tourmaster-tour-title{ padding-left: 100px; padding-right: 0;}
+.tourmaster-tour-grid.tourmaster-price-right-title .tourmaster-tour-price-wrap{ text-align: left; left: 0px; right: auto;}
+.tourmaster-tour-grid.tourmaster-price-bottom-title .tourmaster-tour-price{ margin-left: 15px; margin-right: 0; display: inline-block;}
+.tourmaster-tour-grid.tourmaster-price-bottom-title .tourmaster-tour-price .tourmaster-head{ margin-left: 10px; margin-right: 0; display: inline-block; }
+.tourmaster-tour-grid.tourmaster-tour-frame .tourmaster-tour-price-wrap{ left: 25px; right: auto; }
+
+.tourmaster-tour-grid .tourmaster-tour-price-bottom-wrap .tourmaster-tour-price-head{ float: right; }
+.tourmaster-tour-grid .tourmaster-tour-price-bottom-wrap .tourmaster-tour-price-content{ float: left; }
+.tourmaster-tour-grid .tourmaster-tour-price-bottom-wrap .tourmaster-tour-price,
+.tourmaster-tour-grid .tourmaster-tour-price-bottom-wrap .tourmaster-tour-discount-price{ margin-left: 0; margin-right: 12px;    display: inline-block; }
+
+.tourmaster-tour-item-column-4 .tourmaster-tour-grid.tourmaster-price-right-title .tourmaster-tour-title { padding-left: 90px; padding-right: 0;}
+
+.tourmaster-tour-modern.tourmaster-with-info .tourmaster-tour-price-wrap{ left: 22px; right: auto; }
+.tourmaster-tour-modern .tourmaster-tour-discount-price{ margin-right: 8px; margin-left: 0; display: inline-block;}
+
+.tourmaster-tour-medium .tourmaster-tour-content-wrap{ padding: 20px 35px 0px 25px; }
+.tourmaster-tour-medium .tourmaster-content-left{ float: right; padding-left: 20px; padding-right: 0; }
+.tourmaster-tour-medium .tourmaster-content-right{ padding: 10px 25px 10px 0px; border-right-width: 2px; border-right-style: solid; border-left-width: 0px;}
+.tourmaster-tour-medium .tourmaster-tour-price-wrap.tourmaster-discount .tourmaster-tour-price .tourmaster-head{ display: inline-block; margin-left: 10px; margin-right: 0;}
+
+.tourmaster-tour-full .tourmaster-content-left{ float: right; padding-left: 30px; padding-right: 0; }
+.tourmaster-tour-full .tourmaster-content-right{padding: 20px 15px 20px 5px; border-right-width: 2px; border-right-style: solid; border-left-width: 0;}
+.tourmaster-tour-full .tourmaster-tour-rating-text{ margin-right: 0px; }
+.tourmaster-tour-full .tourmaster-tour-price-wrap.tourmaster-discount .tourmaster-tour-price .tourmaster-head{ margin-left: 10px; margin-right: 0;}
+.tourmaster-tour-full.tourmaster-tour-frame .tourmaster-tour-content-wrap{ padding: 40px 35px 40px 27px; }
+.tourmaster-tour-full.tourmaster-tour-frame .tourmaster-content-right { padding: 20px 27px 20px 0; }
+
+/* tour category */
+.tourmaster-tour-category-grid .tourmaster-tour-category-title{ float: right; }
+.tourmaster-tour-category-grid .tourmaster-tour-category-title i{ margin-left: 9px; margin-right: 0;    display: inline-block; }
+.tourmaster-tour-category-grid .tourmaster-tour-category-count{ float: left; }
+
+/* search */
+.tourmaster-tour-search-field-keywords .tourmaster-tour-search-field-inner:after{ left: 15px; right:auto;}
+.tourmaster-tour-search-field-keywords .tourmaster-tour-search-field-inner input[type="text"]{ padding-left: 40px; padding-right:17px;}
+
+.tourmaster-tour-search-item.tourmaster-style-half .tourmaster-tour-search-field{ float: right; padding-left: 20px; padding-right:0;  }
+.tourmaster-tour-search-item.tourmaster-style-column .tourmaster-tour-search-field{float: right; padding-left: 20px; padding-right:0;  }
+.tourmaster-tour-search-item.tourmaster-style-column .tourmaster-tour-search-submit{ float: right; }
+
+.tourmaster-tour-search-field-rating .tourmaster-rating-select[data-rating-score="0"]{ margin-right: -6px; margin-left: 0; }
+.tourmaster-tour-search-field-rating .tourmaster-tail{ margin-right: 10px; margin-left: 0;}
+
+.tourmaster-tour-search-item .tourmaster-type-filter-title i{ float: right; cursor: pointer; } /* nok */
+.tourmaster-tour-search-item .tourmaster-type-filter-term i{ margin-right: 10px; } /* nok */
+body.tourmaster-template-search .tourmaster-tour-search-item-wrap{ float: right; }
+.tourmaster-tour-search-item-head .tourmaster-tour-search-item-head-title i{ margin-left: 12px; margin-right: 0;}
+
+/* search not found */
+.tourmaster-single-search-not-found-wrap .tourmaster-tour-search-field{ text-align: right; }
+
+/* content navigation */
+.tourmaster-content-navigation-item-outer .tourmaster-content-navigation-tab{  margin-right: 10px; } /* nok */
+
+/* shortcode */
+.tourmaster-quick-search-shortcode input[type="submit"]{ float: right; margin-right: 1%; margin-left: 0;}
+.tourmaster-quick-search-shortcode input[type="text"]{ float: right; }
+
+/* urgency message */
+.tourmaster-urgency-message{ left: 30px; right: auto; }
+.tourmaster-urgency-message .tourmaster-urgency-message-icon{ float: right; margin-left: 20px; margin-right:0; }
+
+/* widget */
+ul.tourmaster-widget-tour-category-list{margin-right: 0px; }
+
+/* confirm box */
+.tourmaster-confirm-box-wrapper .tourmaster-confirm-box-button{ float: right;  }
+
+/*--- tablet ---*/
+@media only screen and (max-width: 1200px){
+    .tourmaster-payment-step-wrap .tourmaster-payment-step-item-icon{ margin-right: 10px; padding: 5px; height: 34px; width: 34px; } /* nok */
+    .tourmaster-payment-step-wrap .tourmaster-payment-step-item{ padding: 16px 40px 16px 0px; } /* nok */
+}
+@media only screen and (max-width: 1140px){
+    .tourmaster-user-navigation .tourmaster-user-navigation-head,
+    .tourmaster-user-navigation .tourmaster-user-navigation-item{ padding-left: 20px; padding-right: 20px; }
+    .tourmaster-user-content-block{ margin: 20px; }
+    .tourmaster-my-profile-info{ float: none; width: auto; padding-left: 0px; padding-right: 0px; }
+    .tourmaster-my-profile-info.tourmaster-even{ padding-left: 0px; }
+    .tourmaster-my-profile-info.tourmaster-odd{  padding-right: 0px; }
+}
+@media only screen and (max-width: 999px){
+    .single-tour .tourmaster-single-header-title-wrap{ padding: 150px 20px 30px; }
+    .single-tour .tourmaster-tour-info-wrap{ padding-left: 0px; padding-right: 0px; }
+    .single-tour.tourmaster-body .gdlr-core-container{ padding-left: 20px; padding-right: 20px; }
+    .single-tour .tourmaster-single-main-content,
+    .single-tour .tourmaster-tour-info-outer .tourmaster-tour-info-wrap{ padding-left: 20px; padding-right: 20px; }
+    .single-tour .tourmaster-single-review{ padding-left: 0px; padding-right: 0px; }
+    .single-tour .tourmaster-single-review-content{ padding-right: 0px; }
+    .tourmaster-single-review-content .tourmaster-single-review-user{ padding-left: 10px; padding-right: 0; }
+
+    .tourmaster-tour-booking-bar-container-inner .tourmaster-tour-booking-bar-wrap{  margin: 50px auto !important;  }
+
+    .tourmaster-payment-head .tourmaster-payment-step-inner{ padding-left: 20px; padding-right: 20px; }
+    .tourmaster-template-payment .tourmaster-tour-booking-bar-wrap{ margin: 0px auto 70px; float: none; }
+    .tourmaster-template-payment .tourmaster-page-content{  margin: 0px auto; }
+}
+
+/*--- mobile landscape style ---*/
+@media only screen and (max-width: 767px){
+    .tourmaster-body .tourmaster-container,
+    .single-tour.tourmaster-body .tourmaster-single-related-tour-container{ max-width: 500px; padding-left: 15px; padding-right: 15px; }
+
+    .tourmaster-my-profile-avatar{ float: none; margin-left: 0px; }
+    .tourmaster-user-content-inner{ padding: 20px; }
+    .tourmaster-user-content-inner.tourmaster-user-content-inner-edit-profile,
+    .tourmaster-user-content-inner.tourmaster-user-content-inner-change-password{ margin: 0px auto; }
+    .tourmaster-edit-profile-avatar img{ margin-left: 0px; }
+    .tourmaster-edit-profile-wrap .tourmaster-head{ float: none; margin-left: 0px; }
+    input.tourmaster-edit-profile-submit.tourmaster-button{ margin-right: 0px; }
+
+    .tourmaster-tour-search-item.tourmaster-style-column .tourmaster-form-field .tourmaster-tour-search-field{  padding-left: 0px;}
+
+    .tourmaster-tour-full .tourmaster-content-left{  float: none; }
+
+    .tourmaster-tour-medium .tourmaster-tour-content-wrap{ padding: 30px 0px 0px; }
+    .tourmaster-tour-medium .tourmaster-content-left{ float: none; padding-left: 0px; }
+    .tourmaster-tour-medium.tourmaster-tour-frame .tourmaster-tour-content-wrap{ padding: 30px; }
+
+    .single-tour .tourmaster-tour-info-wrap .tourmaster-tour-info{float: none; }
+    .tourmaster-single-review-content .tourmaster-single-review-user{ padding-right: 0px; float: none; margin: 0px auto 25px; } /* nok */
+    .tourmaster-payment-contact-wrap .tourmaster-head,
+    .tourmaster-payment-billing-wrap .tourmaster-head,
+    .tourmaster-payment-additional-note-wrap .tourmaster-head,
+    .tourmaster-payment-traveller-info-wrap .tourmaster-head{ float: none; }
+    .tourmaster-payment-billing-copy,
+    .tourmaster-tour-payment-content .tourmaster-tour-booking-continue{ margin-left: 0px; } /* nok */
+    .tourmaster-payment-detail-wrap{ float: none;  }
+
+    .tourmaster-login-form .tourmaster-login-user,
+    .tourmaster-login-form .tourmaster-login-pass,
+    .tourmaster-register-form .tourmaster-profile-field{ float: none; }
+    .tourmaster-login-form2{ float: none;  padding-left: 0px; }
+    .tourmaster-login2-right{ float: none;  padding-right: 0px; border-right: 0px; }
+
+    body.tourmaster-template-search .tourmaster-tour-search-item-wrap{  float: none;}
+    .tourmaster-tour-order-filterer-wrap .tourmaster-combobox-wrap{  margin-left: 0px; } /* nok */
+    .tourmaster-tour-order-filterer-wrap .tourmaster-tour-order-filterer-style{ float: none; }
+    .tourmaster-tour-order-filterer-wrap .tourmaster-tour-order-filterer-style a{ margin-left: 0px; margin-right: 10px; } /* nok */
+}
+@media only screen and (max-width: 425px){
+    .tourmaster-body .ui-datepicker{ margin-left: auto !important; margin-right: auto !important; left: 0px !important; right: 0px !important; }
+    .tourmaster-payment-traveller-info-wrap .tourmaster-traveller-info-field.tourmaster-with-info-title .tourmaster-traveller-info-title,
+    .tourmaster-payment-traveller-info-wrap .tourmaster-traveller-info-field.tourmaster-with-info-title .tourmaster-traveller-info-input,
+    .tourmaster-payment-traveller-info-wrap .tourmaster-tail .tourmaster-traveller-info-passport{ margin-left: 0px; }
+
+    .tourmaster-urgency-message{ padding: 20px; left: 0px;  right: 0px; margin: 0px auto; }
+}
+
+/********************************************
+ * standalone feature from goodlayers core  *
+ *******************************************/
+
+/* flexslider */
+.tourmaster-flexslider ul.slides{ margin-right: 0px; }
+.tourmaster-flexslider[data-type="carousel"] ul.slides > li{ margin-left: 0px; } /* nok */
+
+.tourmaster-flexslider .tourmaster-flex-direction-nav{ margin-left: 0px; list-style: none; margin-bottom: 0px; } /* nok */
+.tourmaster-flexslider .tourmaster-flex-direction-nav .tourmaster-flex-nav-prev{ left: 35px; } /* nok */
+.tourmaster-flexslider .tourmaster-flex-direction-nav .tourmaster-flex-nav-next{ right: 35px; } /* nok */
+
+.tourmaster-tour-item .tourmaster-flexslider.gdlr-core-with-outer-frame-element .flex-viewport{ padding-left: 10px; margin-left: -10px; } /* nok */
+
+/* pagination */
+.tourmaster-pagination.tourmaster-style-plain a,
+.tourmaster-pagination.tourmaster-style-plain span{ background: transparent; margin-left: 15px; } /* nok */
+.tourmaster-pagination.tourmaster-style-plain a:before,
+.tourmaster-pagination.tourmaster-style-plain span:before{ content: "/ "; margin-right: 15px; } /* nok */
+.tourmaster-pagination.tourmaster-style-plain a:first-child,
+.tourmaster-pagination.tourmaster-style-plain span:first-child{ margin-left: 0px; } /* nok */
+
+.tourmaster-pagination.tourmaster-style-rectangle a,
+.tourmaster-pagination.tourmaster-style-rectangle span{ margin-right: 1px; } /* nok */
+
+.tourmaster-pagination.tourmaster-style-round a,
+.tourmaster-pagination.tourmaster-style-round span{margin-right: 3px; } /* nok */
+
+.tourmaster-pagination.tourmaster-style-circle a,
+.tourmaster-pagination.tourmaster-style-circle span{  margin-right: 4px; } /* nok */
